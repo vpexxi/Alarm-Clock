@@ -1,83 +1,91 @@
-# Alarm Clock Application
+Alarm Clock Application
 
-A **Python Tkinter** desktop alarm clock that lets you schedule **alarms** on specific days and times with customizable **Pygame** sounds. This project demonstrates building a simple GUI, handling time-based events, and integrating audio playback.
+A Python Tkinter desktop program that functions as a customizable alarm clock. Users can schedule alarms on specific days and times, select from built‑in sounds, and control alarm playback—all in a lightweight GUI powered by Tkinter and Pygame.
 
----
+🚀 Features
 
-## 🚀 Features
+Schedule Alarms: Set hour, minute, second and choose a day of the week for each alarm.
 
-* **Schedule Alarms**: Input hour, minute, and second, then choose the day of the week for your alarm to trigger.
-* **Customizable Sounds**: Pick from a dropdown of built-in `.mp3` files to personalize your alarm tone.
-* **Start & Stop Controls**: Use **Set Alarm** to activate and **Stop Alarm** to silence the alarm once it’s ringing.
-* **Input Validation**: Ensures you enter valid numeric values for time fields, preventing impossible settings.
+Customizable Sounds: Select from .mp3 sound files (e.g., beep.mp3, chime.mp3) via a dropdown.
 
----
+Start & Stop Controls: Use Set Alarm to activate and Stop Alarm to silence the ringing.
 
-## 📂 Project Structure
+Input Validation: Ensures entered time values are numeric and within valid ranges.
 
-```plaintext
+Background Scheduling: Runs alarms without freezing the GUI by leveraging the after() method in Tkinter.
+
+📂 Project Structure
+
 alarm-clock-app/
-├── alarm_clock.py        # Main application script (Tkinter GUI + scheduling logic)
+├── alarm_clock.py        # Main script: GUI layout, scheduling logic, sound playback
 ├── sounds/               # Folder containing alarm sound files
 │   ├── beep.mp3
 │   ├── chime.mp3
 │   └── ring.mp3
-├── requirements.txt      # Lists external dependencies (pygame)
-└── README.md             # This documentation
-```
+├── requirements.txt      # External dependencies (pygame)
+└── README.md             # Project documentation
 
----
+⚙️ Getting Started
 
-## ⚙️ Getting Started
+Prerequisites
 
-### Prerequisites
+Python 3.x
 
-* **Python 3.x**
-* **Tkinter** (bundled with most Python installs)
-* **Pygame** for audio playback
+Tkinter (bundled with most Python installations)
 
-### Installation
+Pygame (for audio playback)
 
-1. **Clone the Repository**
+Installation & Run
 
-   ```bash
-   git clone https://github.com/your-username/alarm-clock-app.git
-   cd alarm-clock-app
-   ```
-2. **Install Dependencies**
+Clone the repository
 
-   ```bash
-   pip install pygame
-   ```
-3. **Run the Application**
+git clone https://github.com/your-username/alarm-clock-app.git
+cd alarm-clock-app
 
-   ```bash
-   python alarm_clock.py
-   ```
+Install dependencies
 
----
+pip install pygame
 
-## 📡 Usage
+Run the application
 
-1. Launch the app to open the GUI window.
-2. Enter the desired **hour**, **minute**, and **second**.
-3. Select the **day of the week** for the alarm.
-4. Choose an alarm **sound** from the dropdown menu.
-5. Click **Set Alarm** to start. When the scheduled time arrives, the selected sound will play.
-6. Click **Stop Alarm** to silence it.
+python alarm_clock.py
 
----
+📡 Usage
 
-## 🔑 Skills & Technologies
+Launch the app to open the GUI window.
 
-* **Python 3** – Core application logic
-* **Tkinter** – GUI components and event handling
-* **Pygame** – Audio playback for alarm sounds
+Enter the desired hour, minute, and second.
 
----
+Select a day of the week (e.g., Monday, Tuesday).
 
-## 🎯 Why This Project?
+Choose an alarm sound from the dropdown menu.
 
-1. **GUI Development**: Learn how to build desktop applications with Tkinter.
-2. **Scheduling Logic**: Practice handling time-based triggers in Python.
-3. **Multimedia Integration**: See how to incorporate Pygame for sound playback.
+Click Set Alarm to activate. The app will monitor the clock in the background.
+
+At the scheduled time, the chosen sound will play.
+
+Click Stop Alarm to silence it.
+
+🔑 Skills & Technologies
+
+Python 3: Core application logic and scheduling.
+
+Tkinter: GUI creation, event handling, and background tasks.
+
+Pygame: Loading and playing audio files for alarms.
+
+Input Validation: Ensuring robust user inputs.
+
+🎯 Why This Project?
+
+This alarm clock app demonstrates your ability to:
+
+Build a desktop GUI with Python's standard libraries.
+
+Implement time-based scheduling without blocking the UI.
+
+Integrate multimedia playback through Pygame.
+
+Apply input validation and error handling in a user-facing application.
+
+Perfect for showcasing foundational Python skills in desktop application development.
