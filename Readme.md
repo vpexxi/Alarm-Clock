@@ -77,15 +77,4 @@ alarm-clock-app/
 * **Pygame**: Loading and playing audio files for alarms.
 * **Input Validation**: Ensuring robust user inputs.
 
----
 
-## 🎯 Why This Project?
-
-This alarm clock app demonstrates your ability to:
-
-1. Build a **desktop GUI** with Python's standard libraries.
-2. Implement **time-based scheduling** without blocking the UI.
-3. Integrate **multimedia** playback through Pygame.
-4. Apply **input validation** and error handling in a user-facing application.
-
-Perfect for showcasing foundational Python skills in desktop application development.
